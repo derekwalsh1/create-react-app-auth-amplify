@@ -9,7 +9,6 @@ Amplify.configure(aws_exports);
 class App extends Component {
   render() {
     return (
-      <div>Test</div>
       <div className="App">
         <AmplifySignOut />
         <header className="App-header">
