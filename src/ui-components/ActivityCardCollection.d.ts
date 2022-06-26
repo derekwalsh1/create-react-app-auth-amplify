@@ -5,12 +5,15 @@
  **************************************************************************/
 
 import React from "react";
-import { AppSettings } from "../models";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
-import { FlexProps } from "@aws-amplify/ui-react";
-export declare type FAQItemProps = React.PropsWithChildren<Partial<FlexProps> & {
-    appSettings?: AppSettings;
+import { CollectionProps } from "@aws-amplify/ui-react";
+export declare type ActivityCardCollectionProps = React.PropsWithChildren<Partial<CollectionProps<any>> & {
+    items?: any[];
+    overrideItems?: ({ item: any, index: number }: {
+        item: any;
+        index: any;
+    }) => Record<string, string>;
 } & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
-export default function FAQItem(props: FAQItemProps): React.ReactElement;
+export default function ActivityCardCollection(props: ActivityCardCollectionProps): React.ReactElement;

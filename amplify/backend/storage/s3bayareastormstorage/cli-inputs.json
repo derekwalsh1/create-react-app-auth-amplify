@@ -1,0 +1,12 @@
+{
+  "resourceName": "s3bayareastormstorage",
+  "bucketName": "bayareastorm-storage",
+  "policyUUID": "d0c4b867",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}

@@ -5,12 +5,11 @@
  **************************************************************************/
 
 import React from "react";
-import { AppSettings } from "../models";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
 import { FlexProps } from "@aws-amplify/ui-react";
-export declare type FAQItemProps = React.PropsWithChildren<Partial<FlexProps> & {
-    appSettings?: AppSettings;
+export declare type CreateActivityProps = React.PropsWithChildren<Partial<FlexProps> & {
+    as?: String;
 } & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
-export default function FAQItem(props: FAQItemProps): React.ReactElement;
+export default function CreateActivity(props: CreateActivityProps): React.ReactElement;

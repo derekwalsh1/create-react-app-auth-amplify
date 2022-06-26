@@ -5,12 +5,12 @@
  **************************************************************************/
 
 import React from "react";
-import { AppSettings } from "../models";
 import { EscapeHatchProps } from "@aws-amplify/ui-react/internal";
+import { AppSettings } from "../models";
 import { FlexProps } from "@aws-amplify/ui-react";
-export declare type FAQItemProps = React.PropsWithChildren<Partial<FlexProps> & {
+export declare type StormNavBarProps = React.PropsWithChildren<Partial<FlexProps> & {
     appSettings?: AppSettings;
 } & {
     overrides?: EscapeHatchProps | undefined | null;
 }>;
-export default function FAQItem(props: FAQItemProps): React.ReactElement;
+export default function StormNavBar(props: StormNavBarProps): React.ReactElement;
