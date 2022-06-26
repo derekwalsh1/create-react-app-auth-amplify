@@ -62,6 +62,7 @@ export default function StormNavBar(props) {
     <Flex
       gap="4px"
       direction="row"
+      width="1069px"
       justifyContent="center"
       alignItems="center"
       position="relative"
@@ -70,37 +71,39 @@ export default function StormNavBar(props) {
       {...getOverrideProps(overrides, "StormNavBar")}
     >
       <Image
-        width="304px"
-        height="149px"
-        shrink="0"
+        width="312px"
+        height="27px"
+        grow="1"
+        basis="312px"
+        alignSelf="stretch"
         position="relative"
         padding="0px 0px 0px 0px"
         src="https://bayareastorm-storage200106-devw.s3.us-west-1.amazonaws.com/BayAreaStormLogo.png"
         {...getOverrideProps(overrides, "BayAreaStormLogo 1")}
       ></Image>
       <Flex
-        gap="8px"
+        gap="2px"
         direction="column"
-        height="65px"
         alignItems="center"
         shrink="0"
+        height="27px"
         position="relative"
-        padding="0px 0px 0px 0px"
+        padding="0px 2px 0px 2px"
         {...getOverrideProps(overrides, "Frame 433")}
       >
         <Flex
-          gap="6px"
+          gap="2px"
           direction="row"
           width="fit-content"
           justifyContent="center"
           alignItems="center"
           shrink="0"
           position="relative"
-          padding="0px 0px 0px 0px"
+          padding="0px 2px 0px 2px"
           {...getOverrideProps(overrides, "Frame 43231782757")}
         >
           <Flex
-            gap="0"
+            gap="2px"
             direction="row"
             width="fit-content"
             justifyContent="center"
@@ -122,7 +125,6 @@ export default function StormNavBar(props) {
               direction="column"
               justifyContent="center"
               letterSpacing="0.09px"
-              width="200px"
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
@@ -147,14 +149,15 @@ export default function StormNavBar(props) {
             justifyContent="center"
             alignItems="center"
             shrink="0"
-            height="30px"
+            height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 429")}
           >
             <Divider
-              height="30px"
+              height="24px"
               shrink="0"
+              alignSelf="stretch"
               position="relative"
               padding="0px 0px 0px 0px"
               size="small"
@@ -172,7 +175,6 @@ export default function StormNavBar(props) {
               direction="column"
               justifyContent="center"
               letterSpacing="0.09px"
-              width="200px"
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
@@ -194,14 +196,15 @@ export default function StormNavBar(props) {
             justifyContent="center"
             alignItems="center"
             shrink="0"
-            height="30px"
+            height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 430")}
           >
             <Divider
-              height="30px"
+              height="24px"
               shrink="0"
+              alignSelf="stretch"
               position="relative"
               padding="0px 0px 0px 0px"
               size="small"
@@ -219,7 +222,6 @@ export default function StormNavBar(props) {
               direction="column"
               justifyContent="center"
               letterSpacing="0.09px"
-              width="200px"
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
@@ -241,14 +243,15 @@ export default function StormNavBar(props) {
             justifyContent="center"
             alignItems="center"
             shrink="0"
-            height="30px"
+            height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 431")}
           >
             <Divider
-              height="30px"
+              height="24px"
               shrink="0"
+              alignSelf="stretch"
               position="relative"
               padding="0px 0px 0px 0px"
               size="small"
@@ -266,7 +269,6 @@ export default function StormNavBar(props) {
               direction="column"
               justifyContent="center"
               letterSpacing="0.09px"
-              width="200px"
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
@@ -288,14 +290,15 @@ export default function StormNavBar(props) {
             justifyContent="center"
             alignItems="center"
             shrink="0"
-            height="30px"
+            height="24px"
             position="relative"
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Frame 43231802778")}
           >
             <Divider
-              height="30px"
+              height="24px"
               shrink="0"
+              alignSelf="stretch"
               position="relative"
               padding="0px 0px 0px 0px"
               size="small"
@@ -313,7 +316,6 @@ export default function StormNavBar(props) {
               direction="column"
               justifyContent="center"
               letterSpacing="0.09px"
-              width="200px"
               shrink="0"
               position="relative"
               padding="0px 0px 0px 0px"
